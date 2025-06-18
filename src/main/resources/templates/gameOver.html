@@ -23,7 +23,7 @@
         <h1>Game Over!</h1>
 
         <div th:if="${username != null}">
-             <p class="score" th:text="${username} + ', your final score is: ' + ${score}">Your final score is: 0</p>
+             <p class="score" th:text="${username} + ', scorul tau este: ' + ${score}">Scorul tau este: 0</p>
         </div>
         <div th:if="${message != null}">
             <p class="message" th:text="${message}"></p>
